@@ -1,0 +1,95 @@
+.links {
+  text-align: right;
+  #lnk {
+    padding: 20px;
+  }
+}
+
+.google {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+%letter-inherit {
+  font-family: Arial, sans-serif;
+  font-size: 100px;
+}
+
+.search-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#search-bar {
+  border-radius: 25px;
+}
+
+#advbut {
+  color: white;
+  background-color: blue;
+}
+
+#adv-gap {
+  margin-right: 10px;
+}
+
+#l1 {
+  @extend %letter-inherit;
+  color: blue;
+}
+
+#l2 {
+  @extend %letter-inherit;
+  color: red;
+}
+
+#l3 {
+  @extend %letter-inherit;
+  color: yellow;
+}
+
+#l4 {
+  @extend %letter-inherit;
+  color: blue;
+}
+
+#l5 {
+  @extend %letter-inherit;
+  color: green;
+}
+
+#l6 {
+  @extend %letter-inherit;
+  color: red;
+}
+
+#al1 {
+  color: blue;
+}
+
+#al2 {
+  color: red;
+}
+
+#al3 {
+  color: yellow;
+}
+
+#al4 {
+  color: blue;
+}
+
+#al5 {
+  color: green;
+}
+
+#al6 {
+  color: red;
+}
